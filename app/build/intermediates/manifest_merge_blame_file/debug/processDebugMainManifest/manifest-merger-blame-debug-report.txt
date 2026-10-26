@@ -1,0 +1,504 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.myra.assistant"
+4    android:versionCode="2"
+5    android:versionName="2.0.0" >
+6
+7    <uses-sdk
+7-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:5:5-7:40
+8        android:minSdkVersion="26"
+8-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:6:9-35
+9        android:targetSdkVersion="35" />
+9-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:7:9-38
+10
+11    <queries>
+11-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:9:5-14:15
+12        <intent>
+12-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:10:9-13:18
+13            <action android:name="android.intent.action.MAIN" />
+13-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:11:13-64
+13-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:11:21-62
+14
+15            <category android:name="android.intent.category.LAUNCHER" />
+15-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:12:13-72
+15-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:12:23-70
+16        </intent>
+17    </queries>
+18
+19    <!-- Permissions -->
+20    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+20-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:17:5-70
+20-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:17:22-68
+21    <uses-permission android:name="android.permission.READ_CONTACTS" />
+21-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:18:5-71
+21-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:18:22-69
+22    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+22-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:19:5-72
+22-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:19:22-70
+23    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+23-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:20:5-74
+23-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:20:22-72
+24    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+24-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:21:5-71
+24-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:21:22-69
+25    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+25-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:22:5-76
+25-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:22:22-74
+26    <uses-permission android:name="android.permission.CALL_PHONE" />
+26-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:23:5-68
+26-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:23:22-66
+27    <uses-permission android:name="android.permission.SEND_SMS" />
+27-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:24:5-66
+27-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:24:22-64
+28    <uses-permission android:name="android.permission.CAMERA" />
+28-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:25:5-64
+28-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:25:22-62
+29    <uses-permission android:name="android.permission.FLASHLIGHT" />
+29-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:26:5-68
+29-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:26:22-66
+30    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+30-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:27:5-79
+30-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:27:22-77
+31    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+31-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:28:5-77
+31-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:28:22-75
+32    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+32-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:29:5-76
+32-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:29:22-74
+33    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+33-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:30:5-87
+33-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:30:22-85
+34    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_PHONE_CALL" />
+34-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:31:5-87
+34-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:31:22-85
+35    <uses-permission android:name="android.permission.INTERNET" />
+35-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:32:5-66
+35-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:32:22-64
+36    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+36-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:33:5-80
+36-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:33:22-78
+37    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+37-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:34:5-71
+37-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:34:22-69
+38    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+38-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:35:5-76
+38-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:35:22-74
+39    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+39-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:36:5-76
+39-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:36:22-74
+40    <uses-permission android:name="android.permission.VIBRATE" />
+40-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:37:5-65
+40-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:37:22-63
+41    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+41-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:38:5-79
+41-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:38:22-77
+42
+43    <uses-feature
+43-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:40:5-84
+44        android:name="android.hardware.camera"
+44-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:40:19-57
+45        android:required="false" />
+45-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:40:58-82
+46    <uses-feature
+46-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:41:5-90
+47        android:name="android.hardware.camera.flash"
+47-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:41:19-63
+48        android:required="false" />
+48-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:41:64-88
+49
+50    <!-- suppress DeprecatedClassUsageInspection -->
+51    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+51-->[androidx.biometric:biometric:1.2.0-alpha05] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/98ba9720d28bca2bf486cb947c91dd11/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:25:5-74
+51-->[androidx.biometric:biometric:1.2.0-alpha05] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/98ba9720d28bca2bf486cb947c91dd11/transformed/biometric-1.2.0-alpha05/AndroidManifest.xml:25:22-71
+52
+53    <permission
+53-->[androidx.core:core:1.13.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/2e637ff0c8418a90c7391b0a9f218cce/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+54        android:name="com.myra.assistant.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+54-->[androidx.core:core:1.13.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/2e637ff0c8418a90c7391b0a9f218cce/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+55        android:protectionLevel="signature" />
+55-->[androidx.core:core:1.13.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/2e637ff0c8418a90c7391b0a9f218cce/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+56
+57    <uses-permission android:name="com.myra.assistant.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+57-->[androidx.core:core:1.13.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/2e637ff0c8418a90c7391b0a9f218cce/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+57-->[androidx.core:core:1.13.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/2e637ff0c8418a90c7391b0a9f218cce/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+58    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+59    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+59-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/ef88e892b780e6bdcff1d37f1645a017/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+59-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/ef88e892b780e6bdcff1d37f1645a017/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:25:22-76
+60
+61    <application
+61-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:43:5-166:19
+62        android:allowBackup="false"
+62-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:44:9-36
+63        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+63-->[androidx.core:core:1.13.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/2e637ff0c8418a90c7391b0a9f218cce/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+64        android:debuggable="true"
+65        android:extractNativeLibs="false"
+66        android:icon="@mipmap/img"
+66-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:45:9-35
+67        android:label="MYRA"
+67-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:46:9-29
+68        android:networkSecurityConfig="@xml/network_security_config"
+68-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:51:9-69
+69        android:roundIcon="@mipmap/img"
+69-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:47:9-40
+70        android:supportsRtl="true"
+70-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:48:9-35
+71        android:theme="@style/Theme.Myra"
+71-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:49:9-42
+72        android:usesCleartextTraffic="true" >
+72-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:50:9-44
+73
+74        <!-- MAIN ACTIVITY -->
+75        <activity
+75-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:54:9-67:20
+76            android:name="com.myra.assistant.ui.main.MainActivity"
+76-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:55:13-49
+77            android:exported="true"
+77-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:56:13-36
+78            android:launchMode="singleTop"
+78-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:57:13-43
+79            android:screenOrientation="portrait" >
+79-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:58:13-49
+80            <intent-filter>
+80-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:59:13-62:29
+81                <action android:name="android.intent.action.MAIN" />
+81-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:11:13-64
+81-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:11:21-62
+82
+83                <category android:name="android.intent.category.LAUNCHER" />
+83-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:12:13-72
+83-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:12:23-70
+84            </intent-filter>
+85            <intent-filter>
+85-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:63:13-66:29
+86                <action android:name="android.intent.action.ASSIST" />
+86-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:64:17-70
+86-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:64:25-68
+87
+88                <category android:name="android.intent.category.DEFAULT" />
+88-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:65:17-75
+88-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:65:27-73
+89            </intent-filter>
+90        </activity>
+91
+92        <!-- APP LOCK -->
+93        <activity
+93-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:70:9-73:60
+94            android:name="com.myra.assistant.security.AppLockActivity"
+94-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:71:13-53
+95            android:exported="false"
+95-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:72:13-37
+96            android:theme="@style/Theme.Myra.Transparent" />
+96-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:73:13-58
+97
+98        <!-- SETTINGS -->
+99        <activity
+99-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:76:9-78:39
+100            android:name="com.myra.assistant.ui.settings.SettingsActivity"
+100-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:77:13-57
+101            android:exported="false" />
+101-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:78:13-37
+102
+103        <!-- SECURITY SETTINGS -->
+104        <activity
+104-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:81:9-83:39
+105            android:name="com.myra.assistant.security.SecuritySettingsActivity"
+105-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:82:13-62
+106            android:exported="false" />
+106-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:83:13-37
+107
+108        <!-- PATTERN SETUP -->
+109        <activity
+109-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:86:9-88:39
+110            android:name="com.myra.assistant.security.PatternSetupActivity"
+110-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:87:13-58
+111            android:exported="false" />
+111-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:88:13-37
+112
+113        <!-- APP SELECTION -->
+114        <activity
+114-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:91:9-93:39
+115            android:name="com.myra.assistant.security.AppSelectionActivity"
+115-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:92:13-58
+116            android:exported="false" />
+116-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:93:13-37
+117
+118        <!-- CALL ASSISTANT -->
+119        <activity
+119-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:96:9-99:60
+120            android:name="com.myra.assistant.ui.main.CallAssistantActivity"
+120-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:97:13-58
+121            android:exported="false"
+121-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:98:13-37
+122            android:theme="@style/Theme.Myra.Transparent" />
+122-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:99:13-58
+123
+124        <!-- ACCESSIBILITY SERVICE -->
+125        <service
+125-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:102:9-112:19
+126            android:name="com.myra.assistant.service.AccessibilityHelperService"
+126-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:103:13-63
+127            android:exported="false"
+127-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:105:13-37
+128            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+128-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:104:13-79
+129            <intent-filter>
+129-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:106:13-108:29
+130                <action android:name="android.accessibilityservice.AccessibilityService" />
+130-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:107:17-91
+130-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:107:25-89
+131            </intent-filter>
+132
+133            <meta-data
+133-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:109:13-111:71
+134                android:name="android.accessibilityservice"
+134-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:110:17-60
+135                android:resource="@xml/accessibility_service_config" />
+135-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:111:17-69
+136        </service>
+137
+138        <!-- FOREGROUND VOICE SERVICE (Always Listening) -->
+139        <service
+139-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:115:9-118:57
+140            android:name="com.myra.assistant.services.ForegroundVoiceService"
+140-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:116:13-60
+141            android:exported="false"
+141-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:117:13-37
+142            android:foregroundServiceType="microphone" />
+142-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:118:13-55
+143
+144        <!-- CALL MONITOR -->
+145        <service
+145-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:121:9-124:56
+146            android:name="com.myra.assistant.service.CallMonitorService"
+146-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:122:13-55
+147            android:exported="false"
+147-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:123:13-37
+148            android:foregroundServiceType="phoneCall" />
+148-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:124:13-54
+149
+150        <!-- OVERLAY SERVICE -->
+151        <service
+151-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:127:9-130:57
+152            android:name="com.myra.assistant.service.MyraOverlayService"
+152-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:128:13-55
+153            android:exported="false"
+153-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:129:13-37
+154            android:foregroundServiceType="microphone" />
+154-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:130:13-55
+155
+156        <!-- DEVICE ADMIN -->
+157        <receiver
+157-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:133:9-143:20
+158            android:name="com.myra.assistant.service.MyraDeviceAdminReceiver"
+158-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:134:13-60
+159            android:exported="true"
+159-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:135:13-36
+160            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+160-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:136:13-70
+161            <meta-data
+161-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:137:13-139:64
+162                android:name="android.app.device_admin"
+162-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:138:17-56
+163                android:resource="@xml/device_admin_receiver" />
+163-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:139:17-62
+164
+165            <intent-filter>
+165-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:140:13-142:29
+166                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+166-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:141:17-81
+166-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:141:25-79
+167            </intent-filter>
+168        </receiver>
+169
+170        <!-- BOOT RECEIVER -->
+171        <receiver
+171-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:146:9-153:20
+172            android:name="com.myra.assistant.service.BootReceiver"
+172-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:147:13-49
+173            android:enabled="true"
+173-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:148:13-35
+174            android:exported="true" >
+174-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:149:13-36
+175            <intent-filter>
+175-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:150:13-152:29
+176                <action android:name="android.intent.action.BOOT_COMPLETED" />
+176-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:151:17-78
+176-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:151:25-76
+177            </intent-filter>
+178        </receiver>
+179
+180        <!-- POWER BUTTON RECEIVER -->
+181        <receiver
+181-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:156:9-164:20
+182            android:name="com.myra.assistant.service.PowerButtonReceiver"
+182-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:157:13-56
+183            android:enabled="true"
+183-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:158:13-35
+184            android:exported="true" >
+184-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:159:13-36
+185            <intent-filter>
+185-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:160:13-163:29
+186                <action android:name="android.intent.action.SCREEN_OFF" />
+186-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:161:17-74
+186-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:161:25-72
+187                <action android:name="android.intent.action.SCREEN_ON" />
+187-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:162:17-73
+187-->/storage/emulated/0/MYRA/app/src/main/AndroidManifest.xml:162:25-71
+188            </intent-filter>
+189        </receiver>
+190
+191        <service
+191-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/cdf5744ad6ba5c82ae17f65bc6437da5/transformed/play-services-mlkit-text-recognition-common-19.1.0/AndroidManifest.xml:9:9-15:19
+192            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+192-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/cdf5744ad6ba5c82ae17f65bc6437da5/transformed/play-services-mlkit-text-recognition-common-19.1.0/AndroidManifest.xml:10:13-91
+193            android:directBootAware="true"
+193-->[com.google.mlkit:common:18.11.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/8d5a3632df15a976d8ff9c6781143822/transformed/common-18.11.0/AndroidManifest.xml:17:13-43
+194            android:exported="false" >
+194-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/cdf5744ad6ba5c82ae17f65bc6437da5/transformed/play-services-mlkit-text-recognition-common-19.1.0/AndroidManifest.xml:11:13-37
+195            <meta-data
+195-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/cdf5744ad6ba5c82ae17f65bc6437da5/transformed/play-services-mlkit-text-recognition-common-19.1.0/AndroidManifest.xml:12:13-14:85
+196                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+196-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/cdf5744ad6ba5c82ae17f65bc6437da5/transformed/play-services-mlkit-text-recognition-common-19.1.0/AndroidManifest.xml:13:17-114
+197                android:value="com.google.firebase.components.ComponentRegistrar" />
+197-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.1.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/cdf5744ad6ba5c82ae17f65bc6437da5/transformed/play-services-mlkit-text-recognition-common-19.1.0/AndroidManifest.xml:14:17-82
+198            <meta-data
+198-->[com.google.mlkit:vision-common:17.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/a8cbded4cf0feee6dde48ca85f3e0626/transformed/vision-common-17.3.0/AndroidManifest.xml:12:13-14:85
+199                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+199-->[com.google.mlkit:vision-common:17.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/a8cbded4cf0feee6dde48ca85f3e0626/transformed/vision-common-17.3.0/AndroidManifest.xml:13:17-124
+200                android:value="com.google.firebase.components.ComponentRegistrar" />
+200-->[com.google.mlkit:vision-common:17.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/a8cbded4cf0feee6dde48ca85f3e0626/transformed/vision-common-17.3.0/AndroidManifest.xml:14:17-82
+201            <meta-data
+201-->[com.google.mlkit:common:18.11.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/8d5a3632df15a976d8ff9c6781143822/transformed/common-18.11.0/AndroidManifest.xml:20:13-22:85
+202                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+202-->[com.google.mlkit:common:18.11.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/8d5a3632df15a976d8ff9c6781143822/transformed/common-18.11.0/AndroidManifest.xml:21:17-120
+203                android:value="com.google.firebase.components.ComponentRegistrar" />
+203-->[com.google.mlkit:common:18.11.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/8d5a3632df15a976d8ff9c6781143822/transformed/common-18.11.0/AndroidManifest.xml:22:17-82
+204        </service>
+205
+206        <provider
+206-->[com.google.mlkit:common:18.11.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/8d5a3632df15a976d8ff9c6781143822/transformed/common-18.11.0/AndroidManifest.xml:9:9-13:38
+207            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+207-->[com.google.mlkit:common:18.11.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/8d5a3632df15a976d8ff9c6781143822/transformed/common-18.11.0/AndroidManifest.xml:10:13-78
+208            android:authorities="com.myra.assistant.mlkitinitprovider"
+208-->[com.google.mlkit:common:18.11.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/8d5a3632df15a976d8ff9c6781143822/transformed/common-18.11.0/AndroidManifest.xml:11:13-69
+209            android:exported="false"
+209-->[com.google.mlkit:common:18.11.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/8d5a3632df15a976d8ff9c6781143822/transformed/common-18.11.0/AndroidManifest.xml:12:13-37
+210            android:initOrder="99" />
+210-->[com.google.mlkit:common:18.11.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/8d5a3632df15a976d8ff9c6781143822/transformed/common-18.11.0/AndroidManifest.xml:13:13-35
+211
+212        <activity
+212-->[com.google.android.gms:play-services-base:18.5.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/9b4182d8f9c40806961e110c6cb3c1f0/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+213            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+213-->[com.google.android.gms:play-services-base:18.5.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/9b4182d8f9c40806961e110c6cb3c1f0/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+214            android:exported="false"
+214-->[com.google.android.gms:play-services-base:18.5.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/9b4182d8f9c40806961e110c6cb3c1f0/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+215            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+215-->[com.google.android.gms:play-services-base:18.5.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/9b4182d8f9c40806961e110c6cb3c1f0/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+216
+217        <meta-data
+217-->[com.google.android.gms:play-services-basement:18.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/33ff7a4c93436e8fd2fa41889591b4fe/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+218            android:name="com.google.android.gms.version"
+218-->[com.google.android.gms:play-services-basement:18.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/33ff7a4c93436e8fd2fa41889591b4fe/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+219            android:value="@integer/google_play_services_version" />
+219-->[com.google.android.gms:play-services-basement:18.4.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/33ff7a4c93436e8fd2fa41889591b4fe/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+220
+221        <provider
+221-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/bfd0bab328094faf99935a3ed65bca35/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+222            android:name="androidx.startup.InitializationProvider"
+222-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/bfd0bab328094faf99935a3ed65bca35/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+223            android:authorities="com.myra.assistant.androidx-startup"
+223-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/bfd0bab328094faf99935a3ed65bca35/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+224            android:exported="false" >
+224-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/bfd0bab328094faf99935a3ed65bca35/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+225            <meta-data
+225-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/bfd0bab328094faf99935a3ed65bca35/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+226                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+226-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/bfd0bab328094faf99935a3ed65bca35/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+227                android:value="androidx.startup" />
+227-->[androidx.emoji2:emoji2:1.3.0] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/bfd0bab328094faf99935a3ed65bca35/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+228            <meta-data
+228-->[androidx.lifecycle:lifecycle-process:2.8.7] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/9983d0880025c89518fc1178033e2399/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+229                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+229-->[androidx.lifecycle:lifecycle-process:2.8.7] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/9983d0880025c89518fc1178033e2399/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+230                android:value="androidx.startup" />
+230-->[androidx.lifecycle:lifecycle-process:2.8.7] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/9983d0880025c89518fc1178033e2399/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+231            <meta-data
+231-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/3b54fdf8d4094d62618cad3b14433084/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+232                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+232-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/3b54fdf8d4094d62618cad3b14433084/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+233                android:value="androidx.startup" />
+233-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/3b54fdf8d4094d62618cad3b14433084/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+234        </provider>
+235
+236        <receiver
+236-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/3b54fdf8d4094d62618cad3b14433084/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+237            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+237-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/3b54fdf8d4094d62618cad3b14433084/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+238            android:directBootAware="false"
+238-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/3b54fdf8d4094d62618cad3b14433084/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+239            android:enabled="true"
+239-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/3b54fdf8d4094d62618cad3b14433084/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+240            android:exported="true"
+240-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/3b54fdf8d4094d62618cad3b14433084/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+241            android:permission="android.permission.DUMP" >
+241-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/3b54fdf8d4094d62618cad3b14433084/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+242            <intent-filter>
+242-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/3b54fdf8d4094d62618cad3b14433084/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+243                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+243-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/3b54fdf8d4094d62618cad3b14433084/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+243-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/3b54fdf8d4094d62618cad3b14433084/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+244            </intent-filter>
+245            <intent-filter>
+245-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/3b54fdf8d4094d62618cad3b14433084/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+246                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+246-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/3b54fdf8d4094d62618cad3b14433084/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+246-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/3b54fdf8d4094d62618cad3b14433084/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+247            </intent-filter>
+248            <intent-filter>
+248-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/3b54fdf8d4094d62618cad3b14433084/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+249                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+249-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/3b54fdf8d4094d62618cad3b14433084/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+249-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/3b54fdf8d4094d62618cad3b14433084/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+250            </intent-filter>
+251            <intent-filter>
+251-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/3b54fdf8d4094d62618cad3b14433084/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+252                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+252-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/3b54fdf8d4094d62618cad3b14433084/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+252-->[androidx.profileinstaller:profileinstaller:1.3.1] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/3b54fdf8d4094d62618cad3b14433084/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+253            </intent-filter>
+254        </receiver>
+255
+256        <service
+256-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/ef88e892b780e6bdcff1d37f1645a017/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+257            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+257-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/ef88e892b780e6bdcff1d37f1645a017/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+258            android:exported="false" >
+258-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/ef88e892b780e6bdcff1d37f1645a017/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+259            <meta-data
+259-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/ef88e892b780e6bdcff1d37f1645a017/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+260                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+260-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/ef88e892b780e6bdcff1d37f1645a017/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+261                android:value="cct" />
+261-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/ef88e892b780e6bdcff1d37f1645a017/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+262        </service>
+263        <service
+263-->[com.google.android.datatransport:transport-runtime:2.2.6] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/f5a35f161fa53da52c12b6426f3b00df/transformed/transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+264            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+264-->[com.google.android.datatransport:transport-runtime:2.2.6] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/f5a35f161fa53da52c12b6426f3b00df/transformed/transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+265            android:exported="false"
+265-->[com.google.android.datatransport:transport-runtime:2.2.6] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/f5a35f161fa53da52c12b6426f3b00df/transformed/transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+266            android:permission="android.permission.BIND_JOB_SERVICE" >
+266-->[com.google.android.datatransport:transport-runtime:2.2.6] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/f5a35f161fa53da52c12b6426f3b00df/transformed/transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+267        </service>
+268
+269        <receiver
+269-->[com.google.android.datatransport:transport-runtime:2.2.6] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/f5a35f161fa53da52c12b6426f3b00df/transformed/transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+270            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+270-->[com.google.android.datatransport:transport-runtime:2.2.6] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/f5a35f161fa53da52c12b6426f3b00df/transformed/transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+271            android:exported="false" />
+271-->[com.google.android.datatransport:transport-runtime:2.2.6] /data/user/0/com.tom.rv2ide/files/home/.gradle/caches/transforms-4/f5a35f161fa53da52c12b6426f3b00df/transformed/transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+272    </application>
+273
+274</manifest>
